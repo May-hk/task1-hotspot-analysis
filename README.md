@@ -1,0 +1,2 @@
+# task1-hotspot-analysis
+To identify the hotspots using GI* and co-occurrence buffer and correlating with dengue data
