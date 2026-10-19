@@ -1,0 +1,71 @@
+{
+    "detections": [
+        {
+            "row_no": 1,
+            "category": "Water-holding containers",
+            "type": "Direct",
+            "container_type": "pottedplant",
+            "confidence": 0.9,
+            "occluded": false,
+            "concentration": "moderate",
+            "evidence_mode": "visual",
+            "proxy_rationale": "",
+            "notes": "Potted plants visible on the left sidewalk."
+        },
+        {
+            "row_no": 8,
+            "category": "Housing density & structure",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.95,
+            "occluded": false,
+            "concentration": "dense",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "Continuous row houses with no setbacks.",
+            "notes": "Shophouses line the street."
+        },
+        {
+            "row_no": 12,
+            "category": "Socioeconomic factors",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.8,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "Visible infrastructure decay and mixed building materials.",
+            "notes": "Older buildings with visible wear."
+        }
+    ],
+    "image_level": {
+        "scene_summary": "A paved street lined with continuous shophouses and parked vehicles under a bright sky.",
+        "secondary": {
+            "setting": {
+                "value": "urban",
+                "confidence": 0.95
+            }
+        },
+        "scene_scores": [
+            {
+                "row_no": 8,
+                "score_0_1": 0.9,
+                "evidence_mode": "proxy",
+                "proxy_rationale": "High density of attached structures."
+            },
+            {
+                "row_no": 1,
+                "score_0_1": 0.4,
+                "evidence_mode": "visual",
+                "proxy_rationale": "Limited number of potted plants visible."
+            }
+        ]
+    },
+    "meta": {
+        "filename": "13.661354_100.458708_2019-06_72_GqL3tGc34ZS2dJMtVCwk6g.jpg",
+        "lat": 13.661354,
+        "lon": 100.458708,
+        "date": "2019-06",
+        "bearing": 72,
+        "pano_id": "GqL3tGc34ZS2dJMtVCwk6g"
+    }
+}

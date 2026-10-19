@@ -1,0 +1,107 @@
+{
+    "detections": [
+        {
+            "row_no": 1,
+            "category": "Water-holding containers",
+            "type": "Direct",
+            "container_type": "bucket",
+            "confidence": 0.9,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "visual",
+            "proxy_rationale": "",
+            "notes": "White bucket visible near the roadside structure"
+        },
+        {
+            "row_no": 1,
+            "category": "Water-holding containers",
+            "type": "Direct",
+            "container_type": "pottedplant",
+            "confidence": 0.85,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "visual",
+            "proxy_rationale": "",
+            "notes": "Potted plants with visible saucers near the structure"
+        },
+        {
+            "row_no": 2,
+            "category": "Water exposure",
+            "type": "Direct",
+            "container_type": null,
+            "confidence": 0.7,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "visual",
+            "proxy_rationale": "",
+            "notes": "Small puddle visible in the gutter along the road"
+        },
+        {
+            "row_no": 5,
+            "category": "Neglected / Low-level Vegetation",
+            "type": "Direct",
+            "container_type": null,
+            "confidence": 0.95,
+            "occluded": false,
+            "concentration": "dense",
+            "evidence_mode": "visual",
+            "proxy_rationale": "",
+            "notes": "Dense overgrown vegetation and weeds along the roadside"
+        },
+        {
+            "row_no": 12,
+            "category": "Socioeconomic factors",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.8,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "Makeshift structure with corrugated roofing",
+            "notes": "Temporary materials used in roadside structure"
+        }
+    ],
+    "image_level": {
+        "scene_summary": "Roadside scene with overgrown vegetation and a makeshift structure containing potential breeding containers.",
+        "secondary": {
+            "setting": {
+                "value": "rural",
+                "confidence": 0.85
+            }
+        },
+        "scene_scores": [
+            {
+                "row_no": 1,
+                "score_0_1": 0.3,
+                "evidence_mode": "visual",
+                "proxy_rationale": "Few isolated containers detected"
+            },
+            {
+                "row_no": 2,
+                "score_0_1": 0.2,
+                "evidence_mode": "visual",
+                "proxy_rationale": "Minor water accumulation in gutter"
+            },
+            {
+                "row_no": 5,
+                "score_0_1": 0.8,
+                "evidence_mode": "visual",
+                "proxy_rationale": "Extensive unmanaged vegetation"
+            },
+            {
+                "row_no": 12,
+                "score_0_1": 0.4,
+                "evidence_mode": "proxy",
+                "proxy_rationale": "Visible infrastructure decay"
+            }
+        ]
+    },
+    "meta": {
+        "filename": "13.661127_100.452848_2019-08_144_vHtCgOO1H_dk3YtpXc3lCg.jpg",
+        "lat": 13.661127,
+        "lon": 100.452848,
+        "date": "2019-08",
+        "bearing": 144,
+        "pano_id": "vHtCgOO1H_dk3YtpXc3lCg"
+    }
+}

@@ -1,0 +1,77 @@
+{
+    "detections": [
+        {
+            "row_no": 6,
+            "category": "Enclosed Built Environment",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.85,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "Narrow street flanked by continuous building walls",
+            "notes": "Limited airflow and sunlight due to building proximity"
+        },
+        {
+            "row_no": 8,
+            "category": "Housing density & structure",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.95,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "Attached shophouses with no setbacks",
+            "notes": "High density typical of urban residential areas"
+        },
+        {
+            "row_no": 12,
+            "category": "Socioeconomic factors",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.8,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "Weathered infrastructure and corrugated metal awnings",
+            "notes": "Visible aging of building materials"
+        }
+    ],
+    "image_level": {
+        "scene_summary": "Narrow urban street with parked vehicles and attached shophouses.",
+        "secondary": {
+            "setting": {
+                "value": "urban",
+                "confidence": 0.98
+            }
+        },
+        "scene_scores": [
+            {
+                "row_no": 6,
+                "score_0_1": 0.6,
+                "evidence_mode": "proxy",
+                "proxy_rationale": "Moderate enclosure from adjacent buildings"
+            },
+            {
+                "row_no": 8,
+                "score_0_1": 0.9,
+                "evidence_mode": "proxy",
+                "proxy_rationale": "High density attached housing structure"
+            },
+            {
+                "row_no": 12,
+                "score_0_1": 0.4,
+                "evidence_mode": "proxy",
+                "proxy_rationale": "Moderate signs of infrastructure aging"
+            }
+        ]
+    },
+    "meta": {
+        "filename": "13.660814_100.458000_2019-06_216_fFKi3jMe2t-tCyjImua4oA.jpg",
+        "lat": 13.660814,
+        "lon": 100.458,
+        "date": "2019-06",
+        "bearing": 216,
+        "pano_id": "fFKi3jMe2t-tCyjImua4oA"
+    }
+}

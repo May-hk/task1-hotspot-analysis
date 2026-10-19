@@ -1,0 +1,77 @@
+{
+    "detections": [
+        {
+            "row_no": 5,
+            "category": "Neglected / Low-level Vegetation",
+            "type": "Direct",
+            "container_type": null,
+            "confidence": 0.9,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "visual",
+            "proxy_rationale": "",
+            "notes": "Small shrub under tree on sidewalk"
+        },
+        {
+            "row_no": 6,
+            "category": "Enclosed Built Environment",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.85,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "Narrow alleyway with high continuous walls",
+            "notes": "Left side alley"
+        },
+        {
+            "row_no": 10,
+            "category": "Land Use \u00e2\u20ac\u201c Hidden/Indoor Containers",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.75,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "Walled compound with visible clutter",
+            "notes": "Possible storage area"
+        }
+    ],
+    "image_level": {
+        "scene_summary": "Street view with a walled compound, trees, and a narrow alleyway.",
+        "secondary": {
+            "setting": {
+                "value": "urban",
+                "confidence": 0.9
+            }
+        },
+        "scene_scores": [
+            {
+                "row_no": 5,
+                "score_0_1": 0.2,
+                "evidence_mode": "visual",
+                "proxy_rationale": ""
+            },
+            {
+                "row_no": 6,
+                "score_0_1": 0.4,
+                "evidence_mode": "proxy",
+                "proxy_rationale": "Limited sunlight in alley"
+            },
+            {
+                "row_no": 10,
+                "score_0_1": 0.3,
+                "evidence_mode": "proxy",
+                "proxy_rationale": "Walled compound suggests storage"
+            }
+        ]
+    },
+    "meta": {
+        "filename": "13.660720_100.468328_2019-07_288_WLoxxY8u62acys9IuQ2NLA.jpg",
+        "lat": 13.66072,
+        "lon": 100.468328,
+        "date": "2019-07",
+        "bearing": 288,
+        "pano_id": "WLoxxY8u62acys9IuQ2NLA"
+    }
+}

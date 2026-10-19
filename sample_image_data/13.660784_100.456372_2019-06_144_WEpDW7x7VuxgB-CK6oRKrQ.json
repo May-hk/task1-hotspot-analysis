@@ -1,0 +1,59 @@
+{
+    "detections": [
+        {
+            "row_no": 8,
+            "category": "Housing density & structure",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.9,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "Attached shophouses with minimal setbacks",
+            "notes": "Row houses visible on the left"
+        },
+        {
+            "row_no": 12,
+            "category": "Socioeconomic factors",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.8,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "Visible infrastructure decay and aging structures",
+            "notes": "Cracked pavement and weathered walls"
+        }
+    ],
+    "image_level": {
+        "scene_summary": "Street view of a residential area with attached shophouses and a covered walkway.",
+        "secondary": {
+            "setting": {
+                "value": "urban",
+                "confidence": 0.95
+            }
+        },
+        "scene_scores": [
+            {
+                "row_no": 8,
+                "score_0_1": 0.8,
+                "evidence_mode": "proxy",
+                "proxy_rationale": "High density attached housing"
+            },
+            {
+                "row_no": 12,
+                "score_0_1": 0.6,
+                "evidence_mode": "proxy",
+                "proxy_rationale": "Moderate infrastructure decay"
+            }
+        ]
+    },
+    "meta": {
+        "filename": "13.660784_100.456372_2019-06_144_WEpDW7x7VuxgB-CK6oRKrQ.jpg",
+        "lat": 13.660784,
+        "lon": 100.456372,
+        "date": "2019-06",
+        "bearing": 144,
+        "pano_id": "WEpDW7x7VuxgB-CK6oRKrQ"
+    }
+}

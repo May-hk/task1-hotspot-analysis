@@ -1,0 +1,77 @@
+{
+    "detections": [
+        {
+            "row_no": 5,
+            "category": "Neglected / Low-level Vegetation",
+            "type": "Direct",
+            "container_type": null,
+            "confidence": 0.85,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "visual",
+            "proxy_rationale": "",
+            "notes": "Dense weeds visible behind the fence."
+        },
+        {
+            "row_no": 6,
+            "category": "Enclosed Built Environment",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.6,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "High perimeter wall limits airflow and sunlight.",
+            "notes": ""
+        },
+        {
+            "row_no": 8,
+            "category": "Housing density & structure",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.9,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "Attached row houses with no setbacks.",
+            "notes": ""
+        }
+    ],
+    "image_level": {
+        "scene_summary": "Street view of attached residential houses with perimeter walls and a paved road.",
+        "secondary": {
+            "setting": {
+                "value": "urban",
+                "confidence": 0.95
+            }
+        },
+        "scene_scores": [
+            {
+                "row_no": 5,
+                "score_0_1": 0.3,
+                "evidence_mode": "visual",
+                "proxy_rationale": ""
+            },
+            {
+                "row_no": 6,
+                "score_0_1": 0.4,
+                "evidence_mode": "proxy",
+                "proxy_rationale": "Walls create a semi-enclosed microclimate."
+            },
+            {
+                "row_no": 8,
+                "score_0_1": 0.8,
+                "evidence_mode": "proxy",
+                "proxy_rationale": "High density of attached structures."
+            }
+        ]
+    },
+    "meta": {
+        "filename": "13.660784_100.456372_2019-06_216_WEpDW7x7VuxgB-CK6oRKrQ.jpg",
+        "lat": 13.660784,
+        "lon": 100.456372,
+        "date": "2019-06",
+        "bearing": 216,
+        "pano_id": "WEpDW7x7VuxgB-CK6oRKrQ"
+    }
+}

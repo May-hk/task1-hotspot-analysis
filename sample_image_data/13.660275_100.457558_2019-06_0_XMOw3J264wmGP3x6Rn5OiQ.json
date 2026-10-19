@@ -1,0 +1,83 @@
+{
+    "detections": [
+        {
+            "row_no": 1,
+            "category": "Water-holding containers",
+            "type": "Direct",
+            "container_type": "tire",
+            "confidence": 0.95,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "visual",
+            "proxy_rationale": "",
+            "notes": "Tires mounted on vehicle; ignored per rules."
+        },
+        {
+            "row_no": 6,
+            "category": "Enclosed Built Environment",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.85,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "High walls and narrow street limit airflow.",
+            "notes": "Residential setting with high boundary walls."
+        },
+        {
+            "row_no": 12,
+            "category": "Socioeconomic factors",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.8,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "Visible infrastructure decay and temporary coverings.",
+            "notes": "Trailer tarp and worn building facade."
+        }
+    ],
+    "image_level": {
+        "scene_summary": "Residential street with a covered trailer and high boundary walls.",
+        "secondary": {
+            "setting": {
+                "value": "urban",
+                "confidence": 0.9
+            }
+        },
+        "scene_scores": [
+            {
+                "row_no": 1,
+                "score_0_1": 0.0,
+                "evidence_mode": "visual",
+                "proxy_rationale": "No visible water-holding containers."
+            },
+            {
+                "row_no": 2,
+                "score_0_1": 0.0,
+                "evidence_mode": "visual",
+                "proxy_rationale": "No visible standing water."
+            },
+            {
+                "row_no": 6,
+                "score_0_1": 0.6,
+                "evidence_mode": "proxy",
+                "proxy_rationale": "Walls and narrow street create enclosed environment."
+            },
+            {
+                "row_no": 12,
+                "score_0_1": 0.4,
+                "evidence_mode": "proxy",
+                "proxy_rationale": "Minor signs of wear and temporary materials."
+            }
+        ]
+    },
+    "meta": {
+        "filename": "13.660275_100.457558_2019-06_0_XMOw3J264wmGP3x6Rn5OiQ.jpg",
+        "lat": 13.660275,
+        "lon": 100.457558,
+        "date": "2019-06",
+        "bearing": 0,
+        "pano_id": "XMOw3J264wmGP3x6Rn5OiQ"
+    }
+}

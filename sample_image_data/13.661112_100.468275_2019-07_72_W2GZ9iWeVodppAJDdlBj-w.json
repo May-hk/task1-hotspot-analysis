@@ -1,0 +1,89 @@
+{
+    "detections": [
+        {
+            "row_no": 1,
+            "category": "Water-holding containers",
+            "type": "Direct",
+            "container_type": "jar",
+            "confidence": 0.95,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "visual",
+            "proxy_rationale": "",
+            "notes": "Large blue water storage urn on the left."
+        },
+        {
+            "row_no": 4,
+            "category": "Waste accumulation",
+            "type": "Direct",
+            "container_type": null,
+            "confidence": 0.85,
+            "occluded": false,
+            "concentration": "moderate",
+            "evidence_mode": "visual",
+            "proxy_rationale": "Scattered debris and rubble on the ground.",
+            "notes": "Debris near the car and under the shelter."
+        },
+        {
+            "row_no": 12,
+            "category": "Socioeconomic factors",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.8,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "Visible infrastructure decay and makeshift structures.",
+            "notes": "Rusted corrugated roof and cluttered environment."
+        },
+        {
+            "row_no": 10,
+            "category": "Land Use \u2013 Hidden/Indoor Containers",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.6,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "Site appears to be a tire shop or repair garage.",
+            "notes": "Tire shop context implies hidden breeding sites."
+        }
+    ],
+    "image_level": {
+        "scene_summary": "A cluttered roadside tire shop with a parked car, blue water storage, and scattered debris.",
+        "secondary": {
+            "setting": {
+                "value": "urban",
+                "confidence": 0.9
+            }
+        },
+        "scene_scores": [
+            {
+                "row_no": 1,
+                "score_0_1": 0.4,
+                "evidence_mode": "visual",
+                "proxy_rationale": "Single visible water storage container."
+            },
+            {
+                "row_no": 4,
+                "score_0_1": 0.5,
+                "evidence_mode": "visual",
+                "proxy_rationale": "Moderate amount of scattered litter and rubble."
+            },
+            {
+                "row_no": 10,
+                "score_0_1": 0.7,
+                "evidence_mode": "proxy",
+                "proxy_rationale": "High probability of hidden containers in tire shops."
+            }
+        ]
+    },
+    "meta": {
+        "filename": "13.661112_100.468275_2019-07_72_W2GZ9iWeVodppAJDdlBj-w.jpg",
+        "lat": 13.661112,
+        "lon": 100.468275,
+        "date": "2019-07",
+        "bearing": 72,
+        "pano_id": "W2GZ9iWeVodppAJDdlBj-w"
+    }
+}

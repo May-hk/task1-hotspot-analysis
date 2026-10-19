@@ -1,0 +1,107 @@
+{
+    "detections": [
+        {
+            "row_no": 1,
+            "category": "Water-holding containers",
+            "type": "Direct",
+            "container_type": "bucket",
+            "confidence": 0.95,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "visual",
+            "proxy_rationale": "",
+            "notes": "Blue bucket on left, black bucket on right"
+        },
+        {
+            "row_no": 1,
+            "category": "Water-holding containers",
+            "type": "Direct",
+            "container_type": "pottedplant",
+            "confidence": 0.9,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "visual",
+            "proxy_rationale": "",
+            "notes": "Potted plant in foreground right"
+        },
+        {
+            "row_no": 1,
+            "category": "Water-holding containers",
+            "type": "Direct",
+            "container_type": "tire",
+            "confidence": 0.85,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "visual",
+            "proxy_rationale": "",
+            "notes": "Discarded tire near blue bucket"
+        },
+        {
+            "row_no": 7,
+            "category": "Household water storage",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.6,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "Satellite dish implies residential water storage",
+            "notes": "Inferred from satellite dish on roof"
+        },
+        {
+            "row_no": 8,
+            "category": "Housing density & structure",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.95,
+            "occluded": false,
+            "concentration": "moderate",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "Attached shophouses with no setbacks",
+            "notes": "Continuous row of attached buildings"
+        },
+        {
+            "row_no": 12,
+            "category": "Socioeconomic factors",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.7,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "Visible infrastructure decay and clutter",
+            "notes": "General street clutter and aging infrastructure"
+        }
+    ],
+    "image_level": {
+        "scene_summary": "Street view of attached shophouses with parked vehicles and scattered waste containers.",
+        "secondary": {
+            "setting": {
+                "value": "urban",
+                "confidence": 0.95
+            }
+        },
+        "scene_scores": [
+            {
+                "row_no": 1,
+                "score_0_1": 0.3,
+                "evidence_mode": "visual",
+                "proxy_rationale": "Few isolated containers visible"
+            },
+            {
+                "row_no": 8,
+                "score_0_1": 0.8,
+                "evidence_mode": "proxy",
+                "proxy_rationale": "High density attached housing structure"
+            }
+        ]
+    },
+    "meta": {
+        "filename": "13.660804_100.458274_2019-06_144_iZr5jMN0-9xPIm070q0L0w.jpg",
+        "lat": 13.660804,
+        "lon": 100.458274,
+        "date": "2019-06",
+        "bearing": 144,
+        "pano_id": "iZr5jMN0-9xPIm070q0L0w"
+    }
+}

@@ -1,0 +1,95 @@
+{
+    "detections": [
+        {
+            "row_no": 1,
+            "category": "Water-holding containers",
+            "type": "Direct",
+            "container_type": "pottedplant",
+            "confidence": 0.95,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "visual",
+            "proxy_rationale": "",
+            "notes": "Cluster of potted plants with saucers on the left."
+        },
+        {
+            "row_no": 5,
+            "category": "Neglected / Low-level Vegetation",
+            "type": "Direct",
+            "container_type": null,
+            "confidence": 0.85,
+            "occluded": false,
+            "concentration": "moderate",
+            "evidence_mode": "visual",
+            "proxy_rationale": "Overgrown vegetation in the lot across the street.",
+            "notes": "Dense greenery in the lot across the street."
+        },
+        {
+            "row_no": 8,
+            "category": "Housing density & structure",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.9,
+            "occluded": false,
+            "concentration": "moderate",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "Attached shophouses visible across the street.",
+            "notes": "Attached shophouses across the street."
+        },
+        {
+            "row_no": 12,
+            "category": "Socioeconomic factors",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.8,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "Temporary blue tarp structure on the left.",
+            "notes": "Temporary blue tarp structure on the left."
+        }
+    ],
+    "image_level": {
+        "scene_summary": "Street view with potted plants and attached shophouses.",
+        "secondary": {
+            "setting": {
+                "value": "urban",
+                "confidence": 0.95
+            }
+        },
+        "scene_scores": [
+            {
+                "row_no": 1,
+                "score_0_1": 0.3,
+                "evidence_mode": "visual",
+                "proxy_rationale": ""
+            },
+            {
+                "row_no": 5,
+                "score_0_1": 0.4,
+                "evidence_mode": "visual",
+                "proxy_rationale": ""
+            },
+            {
+                "row_no": 8,
+                "score_0_1": 0.5,
+                "evidence_mode": "proxy",
+                "proxy_rationale": "Attached shophouses across the street."
+            },
+            {
+                "row_no": 12,
+                "score_0_1": 0.2,
+                "evidence_mode": "proxy",
+                "proxy_rationale": "Temporary blue tarp structure on the left."
+            }
+        ]
+    },
+    "meta": {
+        "filename": "13.661406_100.451764_2019-06_0_RnyNAofHMj8P7TE6bKA2WQ.jpg",
+        "lat": 13.661406,
+        "lon": 100.451764,
+        "date": "2019-06",
+        "bearing": 0,
+        "pano_id": "RnyNAofHMj8P7TE6bKA2WQ"
+    }
+}

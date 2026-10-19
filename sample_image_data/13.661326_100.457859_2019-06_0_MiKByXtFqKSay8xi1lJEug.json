@@ -1,0 +1,77 @@
+{
+    "detections": [
+        {
+            "row_no": 1,
+            "category": "Water-holding containers",
+            "type": "Direct",
+            "container_type": "bucket",
+            "confidence": 0.95,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "visual",
+            "proxy_rationale": "",
+            "notes": "Blue bucket on the left edge"
+        },
+        {
+            "row_no": 5,
+            "category": "Neglected / Low-level Vegetation",
+            "type": "Direct",
+            "container_type": null,
+            "confidence": 0.85,
+            "occluded": false,
+            "concentration": "moderate",
+            "evidence_mode": "visual",
+            "proxy_rationale": "Dense bushes along the fence line",
+            "notes": "Provides resting habitat"
+        },
+        {
+            "row_no": 8,
+            "category": "Housing density & structure",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.9,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "Attached multi-story residential building",
+            "notes": "Shophouse style structure"
+        }
+    ],
+    "image_level": {
+        "scene_summary": "Street view of a residential building with a parked car and a blue bucket.",
+        "secondary": {
+            "setting": {
+                "value": "urban",
+                "confidence": 0.95
+            }
+        },
+        "scene_scores": [
+            {
+                "row_no": 1,
+                "score_0_1": 0.1,
+                "evidence_mode": "visual",
+                "proxy_rationale": "Single visible container"
+            },
+            {
+                "row_no": 5,
+                "score_0_1": 0.4,
+                "evidence_mode": "visual",
+                "proxy_rationale": "Vegetation present but not overgrown"
+            },
+            {
+                "row_no": 8,
+                "score_0_1": 0.6,
+                "evidence_mode": "proxy",
+                "proxy_rationale": "Attached housing structure"
+            }
+        ]
+    },
+    "meta": {
+        "filename": "13.661326_100.457859_2019-06_0_MiKByXtFqKSay8xi1lJEug.jpg",
+        "lat": 13.661326,
+        "lon": 100.457859,
+        "date": "2019-06",
+        "bearing": 0,
+        "pano_id": "MiKByXtFqKSay8xi1lJEug"
+    }
+}

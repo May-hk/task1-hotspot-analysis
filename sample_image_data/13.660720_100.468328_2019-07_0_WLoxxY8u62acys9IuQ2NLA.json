@@ -1,0 +1,131 @@
+{
+    "detections": [
+        {
+            "row_no": 5,
+            "category": "Neglected / Low-level Vegetation",
+            "type": "Direct",
+            "container_type": null,
+            "confidence": 0.85,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "visual",
+            "proxy_rationale": "",
+            "notes": "Small clumps of weeds at tree bases."
+        },
+        {
+            "row_no": 6,
+            "category": "Enclosed Built Environment",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.6,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "Narrow street with continuous walls on the right.",
+            "notes": "Limited airflow due to building alignment."
+        },
+        {
+            "row_no": 8,
+            "category": "Housing density & structure",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.9,
+            "occluded": false,
+            "concentration": "moderate",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "Attached shophouses with no setbacks.",
+            "notes": "High density of attached structures."
+        }
+    ],
+    "image_level": {
+        "scene_summary": "A quiet, paved residential street lined with trees and attached shophouses.",
+        "secondary": {
+            "setting": {
+                "value": "urban",
+                "confidence": 0.95
+            }
+        },
+        "scene_scores": [
+            {
+                "row_no": 1,
+                "score_0_1": 0.0,
+                "evidence_mode": "visual",
+                "proxy_rationale": ""
+            },
+            {
+                "row_no": 2,
+                "score_0_1": 0.0,
+                "evidence_mode": "visual",
+                "proxy_rationale": ""
+            },
+            {
+                "row_no": 3,
+                "score_0_1": 0.0,
+                "evidence_mode": "visual",
+                "proxy_rationale": ""
+            },
+            {
+                "row_no": 4,
+                "score_0_1": 0.0,
+                "evidence_mode": "visual",
+                "proxy_rationale": ""
+            },
+            {
+                "row_no": 5,
+                "score_0_1": 0.2,
+                "evidence_mode": "visual",
+                "proxy_rationale": "Minor vegetation at tree bases."
+            },
+            {
+                "row_no": 6,
+                "score_0_1": 0.3,
+                "evidence_mode": "proxy",
+                "proxy_rationale": "Street geometry limits airflow."
+            },
+            {
+                "row_no": 7,
+                "score_0_1": 0.0,
+                "evidence_mode": "visual",
+                "proxy_rationale": ""
+            },
+            {
+                "row_no": 8,
+                "score_0_1": 0.8,
+                "evidence_mode": "proxy",
+                "proxy_rationale": "Continuous attached structures."
+            },
+            {
+                "row_no": 9,
+                "score_0_1": 0.0,
+                "evidence_mode": "visual",
+                "proxy_rationale": ""
+            },
+            {
+                "row_no": 10,
+                "score_0_1": 0.0,
+                "evidence_mode": "visual",
+                "proxy_rationale": ""
+            },
+            {
+                "row_no": 11,
+                "score_0_1": 0.0,
+                "evidence_mode": "visual",
+                "proxy_rationale": ""
+            },
+            {
+                "row_no": 12,
+                "score_0_1": 0.1,
+                "evidence_mode": "visual",
+                "proxy_rationale": "Minor infrastructure wear."
+            }
+        ]
+    },
+    "meta": {
+        "filename": "13.660720_100.468328_2019-07_0_WLoxxY8u62acys9IuQ2NLA.jpg",
+        "lat": 13.66072,
+        "lon": 100.468328,
+        "date": "2019-07",
+        "bearing": 0,
+        "pano_id": "WLoxxY8u62acys9IuQ2NLA"
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "detections": [
+        {
+            "row_no": 1,
+            "category": "Water-holding containers",
+            "type": "Direct",
+            "container_type": "bin",
+            "confidence": 0.95,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "visual",
+            "proxy_rationale": "",
+            "notes": "Two green waste bins at curb"
+        },
+        {
+            "row_no": 1,
+            "category": "Water-holding containers",
+            "type": "Direct",
+            "container_type": "pottedplant",
+            "confidence": 0.9,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "visual",
+            "proxy_rationale": "",
+            "notes": "Potted plant with visible saucer"
+        },
+        {
+            "row_no": 12,
+            "category": "Socioeconomic factors",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.85,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "Visible infrastructure decay on wall",
+            "notes": "Wall shows signs of wear and repair"
+        }
+    ],
+    "image_level": {
+        "scene_summary": "Residential street with waste bins and potted plants along a wall.",
+        "secondary": {
+            "setting": {
+                "value": "urban",
+                "confidence": 0.95
+            }
+        },
+        "scene_scores": [
+            {
+                "row_no": 1,
+                "score_0_1": 0.3,
+                "evidence_mode": "visual",
+                "proxy_rationale": "Limited number of potential breeding sites"
+            },
+            {
+                "row_no": 12,
+                "score_0_1": 0.4,
+                "evidence_mode": "proxy",
+                "proxy_rationale": "Minor infrastructure decay visible"
+            }
+        ]
+    },
+    "meta": {
+        "filename": "13.660979_100.455586_2019-06_144_PSW6imtD-LXfw4q7g6Qy8A.jpg",
+        "lat": 13.660979,
+        "lon": 100.455586,
+        "date": "2019-06",
+        "bearing": 144,
+        "pano_id": "PSW6imtD-LXfw4q7g6Qy8A"
+    }
+}

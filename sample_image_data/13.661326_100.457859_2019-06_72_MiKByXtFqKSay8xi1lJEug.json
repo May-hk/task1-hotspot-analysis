@@ -1,0 +1,89 @@
+{
+    "detections": [
+        {
+            "row_no": 1,
+            "category": "Water-holding containers",
+            "type": "Direct",
+            "container_type": "bucket",
+            "confidence": 0.95,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "visual",
+            "proxy_rationale": "",
+            "notes": "Green bucket near white truck"
+        },
+        {
+            "row_no": 1,
+            "category": "Water-holding containers",
+            "type": "Direct",
+            "container_type": "bucket",
+            "confidence": 0.9,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "visual",
+            "proxy_rationale": "",
+            "notes": "Blue bucket on right sidewalk"
+        },
+        {
+            "row_no": 8,
+            "category": "Housing density & structure",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.95,
+            "occluded": false,
+            "concentration": "moderate",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "Continuous row houses with no setbacks",
+            "notes": "Shophouse architecture"
+        },
+        {
+            "row_no": 11,
+            "category": "Population density & human mobility",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.85,
+            "occluded": false,
+            "concentration": "moderate",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "Vehicles parked along narrow street",
+            "notes": "Traffic congestion"
+        }
+    ],
+    "image_level": {
+        "scene_summary": "Narrow urban street lined with shophouses and parked vehicles.",
+        "secondary": {
+            "setting": {
+                "value": "urban",
+                "confidence": 0.98
+            }
+        },
+        "scene_scores": [
+            {
+                "row_no": 1,
+                "score_0_1": 0.2,
+                "evidence_mode": "visual",
+                "proxy_rationale": "Few isolated containers visible"
+            },
+            {
+                "row_no": 8,
+                "score_0_1": 0.9,
+                "evidence_mode": "proxy",
+                "proxy_rationale": "High density attached housing"
+            },
+            {
+                "row_no": 11,
+                "score_0_1": 0.6,
+                "evidence_mode": "proxy",
+                "proxy_rationale": "Moderate vehicle density"
+            }
+        ]
+    },
+    "meta": {
+        "filename": "13.661326_100.457859_2019-06_72_MiKByXtFqKSay8xi1lJEug.jpg",
+        "lat": 13.661326,
+        "lon": 100.457859,
+        "date": "2019-06",
+        "bearing": 72,
+        "pano_id": "MiKByXtFqKSay8xi1lJEug"
+    }
+}

@@ -1,0 +1,131 @@
+{
+    "detections": [
+        {
+            "row_no": 5,
+            "category": "Neglected / Low-level Vegetation",
+            "type": "Direct",
+            "container_type": null,
+            "confidence": 0.85,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "visual",
+            "proxy_rationale": "",
+            "notes": "Dense shrubbery behind the lion statue."
+        },
+        {
+            "row_no": 8,
+            "category": "Housing density & structure",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.95,
+            "occluded": false,
+            "concentration": "moderate",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "Attached multi-story commercial building.",
+            "notes": "Shophouse structure limits setbacks."
+        },
+        {
+            "row_no": 12,
+            "category": "Socioeconomic factors",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.6,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "Worn curb paint and paved surface.",
+            "notes": "Minor infrastructure decay visible."
+        }
+    ],
+    "image_level": {
+        "scene_summary": "Street view of a commercial building with a lion statue and parked cars.",
+        "secondary": {
+            "setting": {
+                "value": "urban",
+                "confidence": 0.95
+            }
+        },
+        "scene_scores": [
+            {
+                "row_no": 1,
+                "score_0_1": 0.0,
+                "evidence_mode": "visual",
+                "proxy_rationale": ""
+            },
+            {
+                "row_no": 2,
+                "score_0_1": 0.0,
+                "evidence_mode": "visual",
+                "proxy_rationale": ""
+            },
+            {
+                "row_no": 3,
+                "score_0_1": 0.0,
+                "evidence_mode": "visual",
+                "proxy_rationale": ""
+            },
+            {
+                "row_no": 4,
+                "score_0_1": 0.0,
+                "evidence_mode": "visual",
+                "proxy_rationale": ""
+            },
+            {
+                "row_no": 5,
+                "score_0_1": 0.3,
+                "evidence_mode": "visual",
+                "proxy_rationale": "Small patch of dense vegetation."
+            },
+            {
+                "row_no": 6,
+                "score_0_1": 0.0,
+                "evidence_mode": "visual",
+                "proxy_rationale": ""
+            },
+            {
+                "row_no": 7,
+                "score_0_1": 0.0,
+                "evidence_mode": "visual",
+                "proxy_rationale": ""
+            },
+            {
+                "row_no": 8,
+                "score_0_1": 0.6,
+                "evidence_mode": "proxy",
+                "proxy_rationale": "Attached commercial building."
+            },
+            {
+                "row_no": 9,
+                "score_0_1": 0.0,
+                "evidence_mode": "visual",
+                "proxy_rationale": ""
+            },
+            {
+                "row_no": 10,
+                "score_0_1": 0.0,
+                "evidence_mode": "visual",
+                "proxy_rationale": ""
+            },
+            {
+                "row_no": 11,
+                "score_0_1": 0.0,
+                "evidence_mode": "visual",
+                "proxy_rationale": ""
+            },
+            {
+                "row_no": 12,
+                "score_0_1": 0.2,
+                "evidence_mode": "proxy",
+                "proxy_rationale": "Worn curb and pavement."
+            }
+        ]
+    },
+    "meta": {
+        "filename": "13.660429_100.468530_2019-08_216_c3E_v17_l_peVRZwql_0sg.jpg",
+        "lat": 13.660429,
+        "lon": 100.46853,
+        "date": "2019-08",
+        "bearing": 216,
+        "pano_id": "c3E_v17_l_peVRZwql_0sg"
+    }
+}

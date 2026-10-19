@@ -1,0 +1,77 @@
+{
+    "detections": [
+        {
+            "row_no": 1,
+            "category": "Water-holding containers",
+            "type": "Direct",
+            "container_type": "pottedplant",
+            "confidence": 0.95,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "visual",
+            "proxy_rationale": "",
+            "notes": "Single potted plant visible on the left."
+        },
+        {
+            "row_no": 5,
+            "category": "Neglected / Low-level Vegetation",
+            "type": "Direct",
+            "container_type": null,
+            "confidence": 0.85,
+            "occluded": false,
+            "concentration": "moderate",
+            "evidence_mode": "visual",
+            "proxy_rationale": "Dense banana leaves and trees create shaded, humid microclimate.",
+            "notes": "Vegetation provides resting habitat."
+        },
+        {
+            "row_no": 8,
+            "category": "Housing density & structure",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.9,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "Residential structures with boundary walls indicate dense housing.",
+            "notes": "Attached or semi-detached housing style."
+        }
+    ],
+    "image_level": {
+        "scene_summary": "Residential street with parked cars, boundary walls, and dense vegetation.",
+        "secondary": {
+            "setting": {
+                "value": "urban",
+                "confidence": 0.95
+            }
+        },
+        "scene_scores": [
+            {
+                "row_no": 1,
+                "score_0_1": 0.1,
+                "evidence_mode": "visual",
+                "proxy_rationale": "Minimal visible breeding containers."
+            },
+            {
+                "row_no": 5,
+                "score_0_1": 0.6,
+                "evidence_mode": "visual",
+                "proxy_rationale": "Vegetation present but not overgrown."
+            },
+            {
+                "row_no": 8,
+                "score_0_1": 0.5,
+                "evidence_mode": "proxy",
+                "proxy_rationale": "Standard residential density."
+            }
+        ]
+    },
+    "meta": {
+        "filename": "13.660277_100.457876_2019-06_144_RiNBqtml_VG0kmnNxB-OUg.jpg",
+        "lat": 13.660277,
+        "lon": 100.457876,
+        "date": "2019-06",
+        "bearing": 144,
+        "pano_id": "RiNBqtml_VG0kmnNxB-OUg"
+    }
+}

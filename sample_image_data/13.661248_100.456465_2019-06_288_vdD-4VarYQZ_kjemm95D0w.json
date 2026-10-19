@@ -1,0 +1,77 @@
+{
+    "detections": [
+        {
+            "row_no": 1,
+            "category": "Water-holding containers",
+            "type": "Direct",
+            "container_type": "bin",
+            "confidence": 0.95,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "visual",
+            "proxy_rationale": "",
+            "notes": "Green waste bin on the sidewalk."
+        },
+        {
+            "row_no": 5,
+            "category": "Neglected / Low-level Vegetation",
+            "type": "Direct",
+            "container_type": null,
+            "confidence": 0.85,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "visual",
+            "proxy_rationale": "Dense shrubbery near the ground.",
+            "notes": "Provides potential resting habitat."
+        },
+        {
+            "row_no": 8,
+            "category": "Housing density & structure",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.9,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "Attached residential structures visible.",
+            "notes": "Houses are close to the street."
+        }
+    ],
+    "image_level": {
+        "scene_summary": "Residential street corner with a green bin and dense vegetation next to a house.",
+        "secondary": {
+            "setting": {
+                "value": "urban",
+                "confidence": 0.95
+            }
+        },
+        "scene_scores": [
+            {
+                "row_no": 1,
+                "score_0_1": 0.1,
+                "evidence_mode": "visual",
+                "proxy_rationale": "Single bin present."
+            },
+            {
+                "row_no": 5,
+                "score_0_1": 0.3,
+                "evidence_mode": "visual",
+                "proxy_rationale": "Vegetation is dense but localized."
+            },
+            {
+                "row_no": 8,
+                "score_0_1": 0.4,
+                "evidence_mode": "proxy",
+                "proxy_rationale": "Typical residential density."
+            }
+        ]
+    },
+    "meta": {
+        "filename": "13.661248_100.456465_2019-06_288_vdD-4VarYQZ_kjemm95D0w.jpg",
+        "lat": 13.661248,
+        "lon": 100.456465,
+        "date": "2019-06",
+        "bearing": 288,
+        "pano_id": "vdD-4VarYQZ_kjemm95D0w"
+    }
+}

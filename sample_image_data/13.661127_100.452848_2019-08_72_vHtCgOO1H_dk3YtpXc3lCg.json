@@ -1,0 +1,95 @@
+{
+    "detections": [
+        {
+            "row_no": 5,
+            "category": "Neglected / Low-level Vegetation",
+            "type": "Direct",
+            "container_type": null,
+            "confidence": 0.9,
+            "occluded": false,
+            "concentration": "moderate",
+            "evidence_mode": "visual",
+            "proxy_rationale": "",
+            "notes": "Dense weeds along the wall base."
+        },
+        {
+            "row_no": 6,
+            "category": "Enclosed Built Environment",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.8,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "High wall limits airflow and sunlight.",
+            "notes": "Tan wall on the left side."
+        },
+        {
+            "row_no": 9,
+            "category": "Land Use \u2013 High Population Impact",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.85,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "Building resembles a school or public facility.",
+            "notes": "Large building behind the blue fence."
+        },
+        {
+            "row_no": 12,
+            "category": "Socioeconomic factors",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.7,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "Visible infrastructure decay and weeds.",
+            "notes": "Cracked pavement and unkempt roadside."
+        }
+    ],
+    "image_level": {
+        "scene_summary": "Curved street with a tan wall, overgrown weeds, and a large building in the background.",
+        "secondary": {
+            "setting": {
+                "value": "urban",
+                "confidence": 0.8
+            }
+        },
+        "scene_scores": [
+            {
+                "row_no": 5,
+                "score_0_1": 0.6,
+                "evidence_mode": "visual",
+                "proxy_rationale": ""
+            },
+            {
+                "row_no": 6,
+                "score_0_1": 0.4,
+                "evidence_mode": "proxy",
+                "proxy_rationale": "Wall creates a semi-enclosed microclimate."
+            },
+            {
+                "row_no": 9,
+                "score_0_1": 0.3,
+                "evidence_mode": "proxy",
+                "proxy_rationale": "Likely a school or public institution."
+            },
+            {
+                "row_no": 12,
+                "score_0_1": 0.5,
+                "evidence_mode": "proxy",
+                "proxy_rationale": "Signs of neglect and poor maintenance."
+            }
+        ]
+    },
+    "meta": {
+        "filename": "13.661127_100.452848_2019-08_72_vHtCgOO1H_dk3YtpXc3lCg.jpg",
+        "lat": 13.661127,
+        "lon": 100.452848,
+        "date": "2019-08",
+        "bearing": 72,
+        "pano_id": "vHtCgOO1H_dk3YtpXc3lCg"
+    }
+}

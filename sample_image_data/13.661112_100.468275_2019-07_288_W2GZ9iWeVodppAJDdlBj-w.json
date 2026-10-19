@@ -1,0 +1,77 @@
+{
+    "detections": [
+        {
+            "row_no": 12,
+            "category": "Socioeconomic factors",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.85,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "visual",
+            "proxy_rationale": "Visible road surface deterioration and potholes.",
+            "notes": "Infrastructure decay near curb."
+        },
+        {
+            "row_no": 10,
+            "category": "Land Use \u00e2\u20ac\u201c Hidden/Indoor Containers",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.65,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "Open-front commercial structure with cluttered storage.",
+            "notes": "Potential for hidden containers in shop."
+        },
+        {
+            "row_no": 8,
+            "category": "Housing density & structure",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.9,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "Attached shophouse structure with no setbacks.",
+            "notes": "High density attached housing."
+        }
+    ],
+    "image_level": {
+        "scene_summary": "Street view of a shophouse with deteriorating road surface and adjacent residential building.",
+        "secondary": {
+            "setting": {
+                "value": "urban",
+                "confidence": 0.95
+            }
+        },
+        "scene_scores": [
+            {
+                "row_no": 12,
+                "score_0_1": 0.4,
+                "evidence_mode": "visual",
+                "proxy_rationale": "Minor road wear and potholes."
+            },
+            {
+                "row_no": 10,
+                "score_0_1": 0.3,
+                "evidence_mode": "proxy",
+                "proxy_rationale": "Commercial site with obscured interior."
+            },
+            {
+                "row_no": 8,
+                "score_0_1": 0.8,
+                "evidence_mode": "proxy",
+                "proxy_rationale": "Continuous attached building row."
+            }
+        ]
+    },
+    "meta": {
+        "filename": "13.661112_100.468275_2019-07_288_W2GZ9iWeVodppAJDdlBj-w.jpg",
+        "lat": 13.661112,
+        "lon": 100.468275,
+        "date": "2019-07",
+        "bearing": 288,
+        "pano_id": "W2GZ9iWeVodppAJDdlBj-w"
+    }
+}

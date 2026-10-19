@@ -1,0 +1,77 @@
+{
+    "detections": [
+        {
+            "row_no": 5,
+            "category": "Neglected / Low-level Vegetation",
+            "type": "Direct",
+            "container_type": null,
+            "confidence": 0.85,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "visual",
+            "proxy_rationale": "",
+            "notes": "Small weeds growing in pavement cracks."
+        },
+        {
+            "row_no": 8,
+            "category": "Housing density & structure",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.95,
+            "occluded": false,
+            "concentration": "moderate",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "Attached shophouses with minimal setbacks.",
+            "notes": "Continuous row of buildings."
+        },
+        {
+            "row_no": 12,
+            "category": "Socioeconomic factors",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.6,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "Minor pavement cracking and uneven surfaces.",
+            "notes": "Infrastructure decay visible."
+        }
+    ],
+    "image_level": {
+        "scene_summary": "Street view of a residential shophouse with a white fence and gate. Vegetation is present but contained.",
+        "secondary": {
+            "setting": {
+                "value": "urban",
+                "confidence": 0.95
+            }
+        },
+        "scene_scores": [
+            {
+                "row_no": 5,
+                "score_0_1": 0.2,
+                "evidence_mode": "visual",
+                "proxy_rationale": "Minor weeds in cracks."
+            },
+            {
+                "row_no": 8,
+                "score_0_1": 0.8,
+                "evidence_mode": "proxy",
+                "proxy_rationale": "Dense attached housing structure."
+            },
+            {
+                "row_no": 12,
+                "score_0_1": 0.3,
+                "evidence_mode": "proxy",
+                "proxy_rationale": "Visible pavement wear."
+            }
+        ]
+    },
+    "meta": {
+        "filename": "13.660780_100.457100_2019-06_0_exVLSitfDo8Wb_vgqp-bdg.jpg",
+        "lat": 13.66078,
+        "lon": 100.4571,
+        "date": "2019-06",
+        "bearing": 0,
+        "pano_id": "exVLSitfDo8Wb_vgqp-bdg"
+    }
+}

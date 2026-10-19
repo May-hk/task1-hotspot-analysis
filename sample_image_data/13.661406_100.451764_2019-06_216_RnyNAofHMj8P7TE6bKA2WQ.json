@@ -1,0 +1,77 @@
+{
+    "detections": [
+        {
+            "row_no": 6,
+            "category": "Enclosed Built Environment",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.85,
+            "occluded": false,
+            "concentration": null,
+            "evidence_mode": "visual",
+            "proxy_rationale": "Narrow street flanked by continuous building facades",
+            "notes": "Limited airflow and sunlight penetration"
+        },
+        {
+            "row_no": 8,
+            "category": "Housing density & structure",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.95,
+            "occluded": false,
+            "concentration": null,
+            "evidence_mode": "visual",
+            "proxy_rationale": "Attached shophouses with no setbacks",
+            "notes": "High density urban structure"
+        },
+        {
+            "row_no": 12,
+            "category": "Socioeconomic factors",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.75,
+            "occluded": false,
+            "concentration": null,
+            "evidence_mode": "visual",
+            "proxy_rationale": "Visible overhead wiring and aging building facades",
+            "notes": "Infrastructure density"
+        }
+    ],
+    "image_level": {
+        "scene_summary": "Narrow urban street lined with parked pickup trucks and continuous shophouses.",
+        "secondary": {
+            "setting": {
+                "value": "urban",
+                "confidence": 0.98
+            }
+        },
+        "scene_scores": [
+            {
+                "row_no": 6,
+                "score_0_1": 0.8,
+                "evidence_mode": "visual",
+                "proxy_rationale": "Narrow street flanked by continuous building facades"
+            },
+            {
+                "row_no": 8,
+                "score_0_1": 0.9,
+                "evidence_mode": "visual",
+                "proxy_rationale": "Attached shophouses with no setbacks"
+            },
+            {
+                "row_no": 12,
+                "score_0_1": 0.6,
+                "evidence_mode": "visual",
+                "proxy_rationale": "Visible overhead wiring and aging building facades"
+            }
+        ]
+    },
+    "meta": {
+        "filename": "13.661406_100.451764_2019-06_216_RnyNAofHMj8P7TE6bKA2WQ.jpg",
+        "lat": 13.661406,
+        "lon": 100.451764,
+        "date": "2019-06",
+        "bearing": 216,
+        "pano_id": "RnyNAofHMj8P7TE6bKA2WQ"
+    }
+}

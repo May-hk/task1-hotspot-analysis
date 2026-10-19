@@ -1,0 +1,59 @@
+{
+    "detections": [
+        {
+            "row_no": 5,
+            "category": "Neglected / Low-level Vegetation",
+            "type": "Direct",
+            "container_type": null,
+            "confidence": 0.9,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "visual",
+            "proxy_rationale": "",
+            "notes": "Overhanging foliage in upper left corner"
+        },
+        {
+            "row_no": 12,
+            "category": "Socioeconomic factors",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.85,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "Visible wall decay and weathering",
+            "notes": "Stained walls and peeling paint"
+        }
+    ],
+    "image_level": {
+        "scene_summary": "Closed storefronts with wet pavement and minor vegetation.",
+        "secondary": {
+            "setting": {
+                "value": "urban",
+                "confidence": 0.95
+            }
+        },
+        "scene_scores": [
+            {
+                "row_no": 5,
+                "score_0_1": 0.2,
+                "evidence_mode": "visual",
+                "proxy_rationale": "Limited to corner foliage"
+            },
+            {
+                "row_no": 12,
+                "score_0_1": 0.4,
+                "evidence_mode": "proxy",
+                "proxy_rationale": "Signs of aging infrastructure"
+            }
+        ]
+    },
+    "meta": {
+        "filename": "13.660720_100.468328_2019-07_72_WLoxxY8u62acys9IuQ2NLA.jpg",
+        "lat": 13.66072,
+        "lon": 100.468328,
+        "date": "2019-07",
+        "bearing": 72,
+        "pano_id": "WLoxxY8u62acys9IuQ2NLA"
+    }
+}

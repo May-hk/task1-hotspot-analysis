@@ -1,0 +1,95 @@
+{
+    "detections": [
+        {
+            "row_no": 5,
+            "category": "Neglected / Low-level Vegetation",
+            "type": "Direct",
+            "container_type": null,
+            "confidence": 0.85,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "visual",
+            "proxy_rationale": "",
+            "notes": "Overgrown weeds along the concrete wall on the left."
+        },
+        {
+            "row_no": 6,
+            "category": "Enclosed Built Environment",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.6,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "High walls and fences limit airflow and sunlight.",
+            "notes": "Residential property with high boundary walls."
+        },
+        {
+            "row_no": 8,
+            "category": "Housing density & structure",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.7,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "Attached row houses with minimal setbacks.",
+            "notes": "Houses are built close to the street and each other."
+        },
+        {
+            "row_no": 12,
+            "category": "Socioeconomic factors",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.65,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "Visible infrastructure decay and weathered materials.",
+            "notes": "Mossy walls and uneven pavement suggest lower maintenance."
+        }
+    ],
+    "image_level": {
+        "scene_summary": "A quiet residential street with high-walled houses and overgrown vegetation along the roadside.",
+        "secondary": {
+            "setting": {
+                "value": "urban",
+                "confidence": 0.9
+            }
+        },
+        "scene_scores": [
+            {
+                "row_no": 5,
+                "score_0_1": 0.3,
+                "evidence_mode": "visual",
+                "proxy_rationale": ""
+            },
+            {
+                "row_no": 6,
+                "score_0_1": 0.4,
+                "evidence_mode": "proxy",
+                "proxy_rationale": "Walls create semi-enclosed microclimates."
+            },
+            {
+                "row_no": 8,
+                "score_0_1": 0.5,
+                "evidence_mode": "proxy",
+                "proxy_rationale": "Dense row housing limits ventilation."
+            },
+            {
+                "row_no": 12,
+                "score_0_1": 0.4,
+                "evidence_mode": "proxy",
+                "proxy_rationale": "Signs of aging infrastructure."
+            }
+        ]
+    },
+    "meta": {
+        "filename": "13.660784_100.456372_2019-06_72_WEpDW7x7VuxgB-CK6oRKrQ.jpg",
+        "lat": 13.660784,
+        "lon": 100.456372,
+        "date": "2019-06",
+        "bearing": 72,
+        "pano_id": "WEpDW7x7VuxgB-CK6oRKrQ"
+    }
+}

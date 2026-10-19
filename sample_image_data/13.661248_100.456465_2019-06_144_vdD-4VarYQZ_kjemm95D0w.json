@@ -1,0 +1,95 @@
+{
+    "detections": [
+        {
+            "row_no": 5,
+            "category": "Neglected / Low-level Vegetation",
+            "type": "Direct",
+            "container_type": null,
+            "confidence": 0.95,
+            "occluded": false,
+            "concentration": "moderate",
+            "evidence_mode": "visual",
+            "proxy_rationale": "",
+            "notes": "Dense weeds along the wall base"
+        },
+        {
+            "row_no": 6,
+            "category": "Enclosed Built Environment",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.85,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "Narrow street with high continuous wall",
+            "notes": ""
+        },
+        {
+            "row_no": 8,
+            "category": "Housing density & structure",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.9,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "Attached row houses with no setbacks",
+            "notes": ""
+        },
+        {
+            "row_no": 12,
+            "category": "Socioeconomic factors",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.8,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "Visible infrastructure decay and weathering",
+            "notes": ""
+        }
+    ],
+    "image_level": {
+        "scene_summary": "Narrow street with overgrown weeds along a high wall and parked car.",
+        "secondary": {
+            "setting": {
+                "value": "urban",
+                "confidence": 0.9
+            }
+        },
+        "scene_scores": [
+            {
+                "row_no": 5,
+                "score_0_1": 0.6,
+                "evidence_mode": "visual",
+                "proxy_rationale": ""
+            },
+            {
+                "row_no": 6,
+                "score_0_1": 0.5,
+                "evidence_mode": "proxy",
+                "proxy_rationale": "Limited airflow due to wall"
+            },
+            {
+                "row_no": 8,
+                "score_0_1": 0.7,
+                "evidence_mode": "proxy",
+                "proxy_rationale": "High density attached housing"
+            },
+            {
+                "row_no": 12,
+                "score_0_1": 0.4,
+                "evidence_mode": "proxy",
+                "proxy_rationale": "Signs of aging infrastructure"
+            }
+        ]
+    },
+    "meta": {
+        "filename": "13.661248_100.456465_2019-06_144_vdD-4VarYQZ_kjemm95D0w.jpg",
+        "lat": 13.661248,
+        "lon": 100.456465,
+        "date": "2019-06",
+        "bearing": 144,
+        "pano_id": "vdD-4VarYQZ_kjemm95D0w"
+    }
+}

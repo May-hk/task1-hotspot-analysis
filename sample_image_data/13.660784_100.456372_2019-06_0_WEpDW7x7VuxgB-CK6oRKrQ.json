@@ -1,0 +1,77 @@
+{
+    "detections": [
+        {
+            "row_no": 4,
+            "category": "Waste accumulation",
+            "type": "Direct",
+            "container_type": null,
+            "confidence": 0.95,
+            "occluded": false,
+            "concentration": "moderate",
+            "evidence_mode": "visual",
+            "proxy_rationale": "",
+            "notes": "Pile of debris and trash along the wall"
+        },
+        {
+            "row_no": 5,
+            "category": "Neglected / Low-level Vegetation",
+            "type": "Direct",
+            "container_type": null,
+            "confidence": 0.9,
+            "occluded": false,
+            "concentration": "dense",
+            "evidence_mode": "visual",
+            "proxy_rationale": "",
+            "notes": "Overgrown trees and thickets behind the wall"
+        },
+        {
+            "row_no": 12,
+            "category": "Socioeconomic factors",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.85,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "Visible infrastructure decay and debris",
+            "notes": "Weathered wall and scattered refuse"
+        }
+    ],
+    "image_level": {
+        "scene_summary": "A roadside area with a weathered wall, dense overgrown vegetation, and accumulated waste.",
+        "secondary": {
+            "setting": {
+                "value": "rural",
+                "confidence": 0.8
+            }
+        },
+        "scene_scores": [
+            {
+                "row_no": 4,
+                "score_0_1": 0.6,
+                "evidence_mode": "visual",
+                "proxy_rationale": ""
+            },
+            {
+                "row_no": 5,
+                "score_0_1": 0.8,
+                "evidence_mode": "visual",
+                "proxy_rationale": ""
+            },
+            {
+                "row_no": 12,
+                "score_0_1": 0.5,
+                "evidence_mode": "proxy",
+                "proxy_rationale": "Visible infrastructure decay and debris"
+            }
+        ]
+    },
+    "meta": {
+        "filename": "13.660784_100.456372_2019-06_0_WEpDW7x7VuxgB-CK6oRKrQ.jpg",
+        "lat": 13.660784,
+        "lon": 100.456372,
+        "date": "2019-06",
+        "bearing": 0,
+        "pano_id": "WEpDW7x7VuxgB-CK6oRKrQ"
+    }
+}

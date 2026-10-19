@@ -1,0 +1,77 @@
+{
+    "detections": [
+        {
+            "row_no": 1,
+            "category": "Water-holding containers",
+            "type": "Direct",
+            "container_type": "cylindrical_bin",
+            "confidence": 0.95,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "visual",
+            "proxy_rationale": "",
+            "notes": "Green bin on the sidewalk"
+        },
+        {
+            "row_no": 5,
+            "category": "Neglected / Low-level Vegetation",
+            "type": "Direct",
+            "container_type": null,
+            "confidence": 0.85,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "visual",
+            "proxy_rationale": "Weeds along the fence line",
+            "notes": "Overgrown weeds near the white fence"
+        },
+        {
+            "row_no": 8,
+            "category": "Housing density & structure",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.9,
+            "occluded": false,
+            "concentration": "moderate",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "Attached row houses with minimal setbacks",
+            "notes": "Houses are close together"
+        }
+    ],
+    "image_level": {
+        "scene_summary": "Residential street with attached houses, a green bin, and some overgrown vegetation along the fence.",
+        "secondary": {
+            "setting": {
+                "value": "urban",
+                "confidence": 0.9
+            }
+        },
+        "scene_scores": [
+            {
+                "row_no": 1,
+                "score_0_1": 0.2,
+                "evidence_mode": "visual",
+                "proxy_rationale": "Single visible container"
+            },
+            {
+                "row_no": 5,
+                "score_0_1": 0.3,
+                "evidence_mode": "visual",
+                "proxy_rationale": "Small patch of weeds"
+            },
+            {
+                "row_no": 8,
+                "score_0_1": 0.6,
+                "evidence_mode": "proxy",
+                "proxy_rationale": "Dense housing structure"
+            }
+        ]
+    },
+    "meta": {
+        "filename": "13.660647_100.455913_2019-06_144_pFXAiz9Wexp1fX_BTQt6gg.jpg",
+        "lat": 13.660647,
+        "lon": 100.455913,
+        "date": "2019-06",
+        "bearing": 144,
+        "pano_id": "pFXAiz9Wexp1fX_BTQt6gg"
+    }
+}

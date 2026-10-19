@@ -1,0 +1,95 @@
+{
+    "detections": [
+        {
+            "row_no": 5,
+            "category": "Neglected / Low-level Vegetation",
+            "type": "Direct",
+            "container_type": null,
+            "confidence": 0.9,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "visual",
+            "proxy_rationale": "",
+            "notes": "Trimmed hedge along the curb"
+        },
+        {
+            "row_no": 6,
+            "category": "Enclosed Built Environment",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.8,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "High continuous wall limits airflow and sunlight",
+            "notes": ""
+        },
+        {
+            "row_no": 8,
+            "category": "Housing density & structure",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.85,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "Attached row houses with minimal setbacks",
+            "notes": ""
+        },
+        {
+            "row_no": 12,
+            "category": "Socioeconomic factors",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.7,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "Visible infrastructure decay on the street surface",
+            "notes": ""
+        }
+    ],
+    "image_level": {
+        "scene_summary": "Street view of a residential area with high walls and manicured hedges.",
+        "secondary": {
+            "setting": {
+                "value": "urban",
+                "confidence": 0.95
+            }
+        },
+        "scene_scores": [
+            {
+                "row_no": 5,
+                "score_0_1": 0.2,
+                "evidence_mode": "visual",
+                "proxy_rationale": ""
+            },
+            {
+                "row_no": 6,
+                "score_0_1": 0.4,
+                "evidence_mode": "proxy",
+                "proxy_rationale": "Moderate enclosure effect from the wall"
+            },
+            {
+                "row_no": 8,
+                "score_0_1": 0.5,
+                "evidence_mode": "proxy",
+                "proxy_rationale": "Moderate density of attached structures"
+            },
+            {
+                "row_no": 12,
+                "score_0_1": 0.3,
+                "evidence_mode": "proxy",
+                "proxy_rationale": "Minor signs of wear on the street"
+            }
+        ]
+    },
+    "meta": {
+        "filename": "13.660275_100.457558_2019-06_216_XMOw3J264wmGP3x6Rn5OiQ.jpg",
+        "lat": 13.660275,
+        "lon": 100.457558,
+        "date": "2019-06",
+        "bearing": 216,
+        "pano_id": "XMOw3J264wmGP3x6Rn5OiQ"
+    }
+}

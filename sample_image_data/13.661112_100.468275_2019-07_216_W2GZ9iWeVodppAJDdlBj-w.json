@@ -1,0 +1,95 @@
+{
+    "detections": [
+        {
+            "row_no": 1,
+            "category": "Water-holding containers",
+            "type": "Direct",
+            "container_type": "bucket",
+            "confidence": 0.95,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "visual",
+            "proxy_rationale": "",
+            "notes": "Blue bucket near gate"
+        },
+        {
+            "row_no": 5,
+            "category": "Neglected / Low-level Vegetation",
+            "type": "Direct",
+            "container_type": null,
+            "confidence": 0.85,
+            "occluded": false,
+            "concentration": "moderate",
+            "evidence_mode": "visual",
+            "proxy_rationale": "Dense trees and shrubs along fence",
+            "notes": "Provides adult resting habitat"
+        },
+        {
+            "row_no": 6,
+            "category": "Enclosed Built Environment",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.7,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "High corrugated metal fence limits airflow",
+            "notes": "Traps humidity near the ground"
+        },
+        {
+            "row_no": 12,
+            "category": "Socioeconomic factors",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.8,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "Temporary corrugated metal fencing",
+            "notes": "Indicates informal infrastructure"
+        }
+    ],
+    "image_level": {
+        "scene_summary": "Street view with a temporary fence, blue bucket, and dense roadside vegetation.",
+        "secondary": {
+            "setting": {
+                "value": "urban",
+                "confidence": 0.9
+            }
+        },
+        "scene_scores": [
+            {
+                "row_no": 1,
+                "score_0_1": 0.1,
+                "evidence_mode": "visual",
+                "proxy_rationale": "Single visible container"
+            },
+            {
+                "row_no": 5,
+                "score_0_1": 0.6,
+                "evidence_mode": "visual",
+                "proxy_rationale": "Continuous line of vegetation"
+            },
+            {
+                "row_no": 6,
+                "score_0_1": 0.4,
+                "evidence_mode": "proxy",
+                "proxy_rationale": "Fence creates partial enclosure"
+            },
+            {
+                "row_no": 12,
+                "score_0_1": 0.3,
+                "evidence_mode": "proxy",
+                "proxy_rationale": "Visible temporary materials"
+            }
+        ]
+    },
+    "meta": {
+        "filename": "13.661112_100.468275_2019-07_216_W2GZ9iWeVodppAJDdlBj-w.jpg",
+        "lat": 13.661112,
+        "lon": 100.468275,
+        "date": "2019-07",
+        "bearing": 216,
+        "pano_id": "W2GZ9iWeVodppAJDdlBj-w"
+    }
+}

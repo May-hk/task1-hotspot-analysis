@@ -1,0 +1,77 @@
+{
+    "detections": [
+        {
+            "row_no": 1,
+            "category": "Water-holding containers",
+            "type": "Direct",
+            "container_type": "bucket",
+            "confidence": 0.95,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "visual",
+            "proxy_rationale": "",
+            "notes": "Blue plastic bucket near garden wall"
+        },
+        {
+            "row_no": 5,
+            "category": "Neglected / Low-level Vegetation",
+            "type": "Direct",
+            "container_type": null,
+            "confidence": 0.85,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "visual",
+            "proxy_rationale": "Weeds growing in pavement cracks",
+            "notes": "Grass patches in road cracks"
+        },
+        {
+            "row_no": 8,
+            "category": "Housing density & structure",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.9,
+            "occluded": false,
+            "concentration": "moderate",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "Attached row houses with minimal setbacks",
+            "notes": "Attached residential structures"
+        }
+    ],
+    "image_level": {
+        "scene_summary": "Residential street with attached houses, a blue bucket, and weeds in pavement cracks.",
+        "secondary": {
+            "setting": {
+                "value": "urban",
+                "confidence": 0.95
+            }
+        },
+        "scene_scores": [
+            {
+                "row_no": 1,
+                "score_0_1": 0.1,
+                "evidence_mode": "visual",
+                "proxy_rationale": "Single visible container"
+            },
+            {
+                "row_no": 5,
+                "score_0_1": 0.2,
+                "evidence_mode": "visual",
+                "proxy_rationale": "Minor vegetation in cracks"
+            },
+            {
+                "row_no": 8,
+                "score_0_1": 0.6,
+                "evidence_mode": "proxy",
+                "proxy_rationale": "Attached housing density"
+            }
+        ]
+    },
+    "meta": {
+        "filename": "13.661394_100.456953_2019-06_144_sX9gy0DjkHxtcWID25vJSA.jpg",
+        "lat": 13.661394,
+        "lon": 100.456953,
+        "date": "2019-06",
+        "bearing": 144,
+        "pano_id": "sX9gy0DjkHxtcWID25vJSA"
+    }
+}

@@ -1,0 +1,77 @@
+{
+    "detections": [
+        {
+            "row_no": 1,
+            "category": "Water-holding containers",
+            "type": "Direct",
+            "container_type": "cylindrical_bin",
+            "confidence": 0.95,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "visual",
+            "proxy_rationale": "",
+            "notes": "Two blue barrels near the curb."
+        },
+        {
+            "row_no": 4,
+            "category": "Waste accumulation",
+            "type": "Direct",
+            "container_type": null,
+            "confidence": 0.9,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "visual",
+            "proxy_rationale": "",
+            "notes": "Black trash bag and debris next to barrels."
+        },
+        {
+            "row_no": 12,
+            "category": "Socioeconomic factors",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.85,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "Visible infrastructure decay and makeshift roofing.",
+            "notes": "Rusted metal supports and corrugated roof."
+        }
+    ],
+    "image_level": {
+        "scene_summary": "Street corner with waste management issues and aging infrastructure.",
+        "secondary": {
+            "setting": {
+                "value": "urban",
+                "confidence": 0.95
+            }
+        },
+        "scene_scores": [
+            {
+                "row_no": 1,
+                "score_0_1": 0.3,
+                "evidence_mode": "visual",
+                "proxy_rationale": ""
+            },
+            {
+                "row_no": 4,
+                "score_0_1": 0.2,
+                "evidence_mode": "visual",
+                "proxy_rationale": ""
+            },
+            {
+                "row_no": 12,
+                "score_0_1": 0.4,
+                "evidence_mode": "proxy",
+                "proxy_rationale": "Signs of wear and temporary construction materials."
+            }
+        ]
+    },
+    "meta": {
+        "filename": "13.661385_100.459485_2019-06_0_0Es4tvUlRZb7NYgdeeY9oQ.jpg",
+        "lat": 13.661385,
+        "lon": 100.459485,
+        "date": "2019-06",
+        "bearing": 0,
+        "pano_id": "0Es4tvUlRZb7NYgdeeY9oQ"
+    }
+}

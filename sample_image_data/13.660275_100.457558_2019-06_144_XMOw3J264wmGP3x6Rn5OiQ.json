@@ -1,0 +1,77 @@
+{
+    "detections": [
+        {
+            "row_no": 5,
+            "category": "Neglected / Low-level Vegetation",
+            "type": "Direct",
+            "container_type": null,
+            "confidence": 0.9,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "visual",
+            "proxy_rationale": "",
+            "notes": "Trimmed hedges along the fence line"
+        },
+        {
+            "row_no": 6,
+            "category": "Enclosed Built Environment",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.85,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "High walls and gate create enclosed microclimate",
+            "notes": ""
+        },
+        {
+            "row_no": 8,
+            "category": "Housing density & structure",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.95,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "Attached row houses with no setbacks",
+            "notes": ""
+        }
+    ],
+    "image_level": {
+        "scene_summary": "Residential street with attached modern houses, high boundary walls, and a parked motorcycle.",
+        "secondary": {
+            "setting": {
+                "value": "urban",
+                "confidence": 0.95
+            }
+        },
+        "scene_scores": [
+            {
+                "row_no": 5,
+                "score_0_1": 0.2,
+                "evidence_mode": "visual",
+                "proxy_rationale": ""
+            },
+            {
+                "row_no": 6,
+                "score_0_1": 0.4,
+                "evidence_mode": "proxy",
+                "proxy_rationale": "Walls limit airflow but open gate allows ventilation"
+            },
+            {
+                "row_no": 8,
+                "score_0_1": 0.8,
+                "evidence_mode": "proxy",
+                "proxy_rationale": "High density attached housing structure"
+            }
+        ]
+    },
+    "meta": {
+        "filename": "13.660275_100.457558_2019-06_144_XMOw3J264wmGP3x6Rn5OiQ.jpg",
+        "lat": 13.660275,
+        "lon": 100.457558,
+        "date": "2019-06",
+        "bearing": 144,
+        "pano_id": "XMOw3J264wmGP3x6Rn5OiQ"
+    }
+}

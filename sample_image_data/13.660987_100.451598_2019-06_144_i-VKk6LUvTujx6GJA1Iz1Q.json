@@ -1,0 +1,125 @@
+{
+    "detections": [
+        {
+            "row_no": 1,
+            "category": "Water-holding containers",
+            "type": "Direct",
+            "container_type": "bowl",
+            "confidence": 0.95,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "visual",
+            "proxy_rationale": "",
+            "notes": "Blue bowl near seated individuals"
+        },
+        {
+            "row_no": 1,
+            "category": "Water-holding containers",
+            "type": "Direct",
+            "container_type": "pottedplant",
+            "confidence": 0.9,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "visual",
+            "proxy_rationale": "",
+            "notes": "Potted plants on wooden pallets"
+        },
+        {
+            "row_no": 2,
+            "category": "Water exposure",
+            "type": "Direct",
+            "container_type": null,
+            "confidence": 0.85,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "visual",
+            "proxy_rationale": "",
+            "notes": "Stagnant water on concrete pavement"
+        },
+        {
+            "row_no": 4,
+            "category": "Waste accumulation",
+            "type": "Direct",
+            "container_type": null,
+            "confidence": 0.8,
+            "occluded": false,
+            "concentration": "moderate",
+            "evidence_mode": "visual",
+            "proxy_rationale": "",
+            "notes": "Clutter and debris in front of shop"
+        },
+        {
+            "row_no": 8,
+            "category": "Housing density & structure",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.95,
+            "occluded": false,
+            "concentration": "dense",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "Continuous row of attached shophouses",
+            "notes": ""
+        },
+        {
+            "row_no": 12,
+            "category": "Socioeconomic factors",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.85,
+            "occluded": false,
+            "concentration": "moderate",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "Weathered infrastructure and makeshift storage",
+            "notes": ""
+        }
+    ],
+    "image_level": {
+        "scene_summary": "Street-level view of a row of shophouses with clutter, standing water, and potted plants.",
+        "secondary": {
+            "setting": {
+                "value": "urban",
+                "confidence": 0.95
+            }
+        },
+        "scene_scores": [
+            {
+                "row_no": 1,
+                "score_0_1": 0.4,
+                "evidence_mode": "visual",
+                "proxy_rationale": ""
+            },
+            {
+                "row_no": 2,
+                "score_0_1": 0.3,
+                "evidence_mode": "visual",
+                "proxy_rationale": ""
+            },
+            {
+                "row_no": 4,
+                "score_0_1": 0.5,
+                "evidence_mode": "visual",
+                "proxy_rationale": ""
+            },
+            {
+                "row_no": 8,
+                "score_0_1": 0.9,
+                "evidence_mode": "proxy",
+                "proxy_rationale": "High density attached structures"
+            },
+            {
+                "row_no": 12,
+                "score_0_1": 0.6,
+                "evidence_mode": "proxy",
+                "proxy_rationale": "Visible signs of wear and clutter"
+            }
+        ]
+    },
+    "meta": {
+        "filename": "13.660987_100.451598_2019-06_144_i-VKk6LUvTujx6GJA1Iz1Q.jpg",
+        "lat": 13.660987,
+        "lon": 100.451598,
+        "date": "2019-06",
+        "bearing": 144,
+        "pano_id": "i-VKk6LUvTujx6GJA1Iz1Q"
+    }
+}

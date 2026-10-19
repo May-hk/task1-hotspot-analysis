@@ -1,0 +1,101 @@
+{
+    "detections": [
+        {
+            "row_no": 1,
+            "category": "Water-holding containers",
+            "type": "Direct",
+            "container_type": "pottedplant",
+            "confidence": 0.95,
+            "occluded": false,
+            "concentration": "moderate",
+            "evidence_mode": "visual",
+            "proxy_rationale": "",
+            "notes": "Potted plants with saucers along the fence line"
+        },
+        {
+            "row_no": 1,
+            "category": "Water-holding containers",
+            "type": "Direct",
+            "container_type": "bucket",
+            "confidence": 0.85,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "visual",
+            "proxy_rationale": "",
+            "notes": "Blue bucket on the street curb"
+        },
+        {
+            "row_no": 2,
+            "category": "Water exposure",
+            "type": "Direct",
+            "container_type": null,
+            "confidence": 0.8,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "visual",
+            "proxy_rationale": "",
+            "notes": "Small puddle in the gutter"
+        },
+        {
+            "row_no": 8,
+            "category": "Housing density & structure",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.95,
+            "occluded": false,
+            "concentration": "moderate",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "Attached row houses with no setbacks",
+            "notes": ""
+        },
+        {
+            "row_no": 12,
+            "category": "Socioeconomic factors",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.7,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "Visible infrastructure decay and aging",
+            "notes": "Cracked pavement and weathered walls"
+        }
+    ],
+    "image_level": {
+        "scene_summary": "Residential street with attached houses, potted plants, and minor puddles.",
+        "secondary": {
+            "setting": {
+                "value": "urban",
+                "confidence": 0.95
+            }
+        },
+        "scene_scores": [
+            {
+                "row_no": 1,
+                "score_0_1": 0.4,
+                "evidence_mode": "visual",
+                "proxy_rationale": ""
+            },
+            {
+                "row_no": 2,
+                "score_0_1": 0.2,
+                "evidence_mode": "visual",
+                "proxy_rationale": ""
+            },
+            {
+                "row_no": 8,
+                "score_0_1": 0.8,
+                "evidence_mode": "proxy",
+                "proxy_rationale": "High density attached housing"
+            }
+        ]
+    },
+    "meta": {
+        "filename": "13.661385_100.459485_2019-06_216_0Es4tvUlRZb7NYgdeeY9oQ.jpg",
+        "lat": 13.661385,
+        "lon": 100.459485,
+        "date": "2019-06",
+        "bearing": 216,
+        "pano_id": "0Es4tvUlRZb7NYgdeeY9oQ"
+    }
+}

@@ -1,0 +1,95 @@
+{
+    "detections": [
+        {
+            "row_no": 1,
+            "category": "Water-holding containers",
+            "type": "Direct",
+            "container_type": "cylindrical_bin",
+            "confidence": 0.95,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "visual",
+            "proxy_rationale": "",
+            "notes": "Blue barrels visible on the right side."
+        },
+        {
+            "row_no": 2,
+            "category": "Water exposure",
+            "type": "Direct",
+            "container_type": null,
+            "confidence": 0.85,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "visual",
+            "proxy_rationale": "",
+            "notes": "Small puddle in the gutter on the left."
+        },
+        {
+            "row_no": 5,
+            "category": "Neglected / Low-level Vegetation",
+            "type": "Direct",
+            "container_type": null,
+            "confidence": 0.75,
+            "occluded": false,
+            "concentration": "moderate",
+            "evidence_mode": "visual",
+            "proxy_rationale": "",
+            "notes": "Dense trees and shrubs lining the street."
+        },
+        {
+            "row_no": 8,
+            "category": "Housing density & structure",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.8,
+            "occluded": false,
+            "concentration": "moderate",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "Attached shophouses with minimal setbacks.",
+            "notes": ""
+        }
+    ],
+    "image_level": {
+        "scene_summary": "A paved residential street lined with dense trees and attached shophouses.",
+        "secondary": {
+            "setting": {
+                "value": "urban",
+                "confidence": 0.9
+            }
+        },
+        "scene_scores": [
+            {
+                "row_no": 1,
+                "score_0_1": 0.2,
+                "evidence_mode": "visual",
+                "proxy_rationale": ""
+            },
+            {
+                "row_no": 2,
+                "score_0_1": 0.1,
+                "evidence_mode": "visual",
+                "proxy_rationale": ""
+            },
+            {
+                "row_no": 5,
+                "score_0_1": 0.6,
+                "evidence_mode": "visual",
+                "proxy_rationale": ""
+            },
+            {
+                "row_no": 8,
+                "score_0_1": 0.5,
+                "evidence_mode": "proxy",
+                "proxy_rationale": "Continuous row of attached structures."
+            }
+        ]
+    },
+    "meta": {
+        "filename": "13.660429_100.468530_2019-08_0_c3E_v17_l_peVRZwql_0sg.jpg",
+        "lat": 13.660429,
+        "lon": 100.46853,
+        "date": "2019-08",
+        "bearing": 0,
+        "pano_id": "c3E_v17_l_peVRZwql_0sg"
+    }
+}

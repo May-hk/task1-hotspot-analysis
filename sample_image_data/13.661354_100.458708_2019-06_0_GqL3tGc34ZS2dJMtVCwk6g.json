@@ -1,0 +1,59 @@
+{
+    "detections": [
+        {
+            "row_no": 5,
+            "category": "Neglected / Low-level Vegetation",
+            "type": "Direct",
+            "container_type": null,
+            "confidence": 0.9,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "visual",
+            "proxy_rationale": "",
+            "notes": "Dense potted plant on right creates shade."
+        },
+        {
+            "row_no": 8,
+            "category": "Housing density & structure",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.95,
+            "occluded": false,
+            "concentration": "moderate",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "Attached row houses with no setbacks.",
+            "notes": ""
+        }
+    ],
+    "image_level": {
+        "scene_summary": "Street view of a commercial storefront with attached housing above and a parked car.",
+        "secondary": {
+            "setting": {
+                "value": "urban",
+                "confidence": 0.95
+            }
+        },
+        "scene_scores": [
+            {
+                "row_no": 5,
+                "score_0_1": 0.3,
+                "evidence_mode": "visual",
+                "proxy_rationale": "Single large plant cluster."
+            },
+            {
+                "row_no": 8,
+                "score_0_1": 0.8,
+                "evidence_mode": "proxy",
+                "proxy_rationale": "Continuous attached building structure."
+            }
+        ]
+    },
+    "meta": {
+        "filename": "13.661354_100.458708_2019-06_0_GqL3tGc34ZS2dJMtVCwk6g.jpg",
+        "lat": 13.661354,
+        "lon": 100.458708,
+        "date": "2019-06",
+        "bearing": 0,
+        "pano_id": "GqL3tGc34ZS2dJMtVCwk6g"
+    }
+}

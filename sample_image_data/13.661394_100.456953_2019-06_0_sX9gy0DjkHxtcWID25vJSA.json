@@ -1,0 +1,95 @@
+{
+    "detections": [
+        {
+            "row_no": 1,
+            "category": "Water-holding containers",
+            "type": "Direct",
+            "container_type": "bucket",
+            "confidence": 0.95,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "visual",
+            "proxy_rationale": "",
+            "notes": "Blue barrel on roadside"
+        },
+        {
+            "row_no": 6,
+            "category": "Enclosed Built Environment",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.85,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "High wall limits airflow and sunlight",
+            "notes": "Residential boundary wall"
+        },
+        {
+            "row_no": 7,
+            "category": "Household water storage",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.9,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "Blue barrel likely used for water storage",
+            "notes": "Potential open storage"
+        },
+        {
+            "row_no": 12,
+            "category": "Socioeconomic factors",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.7,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "Visible infrastructure decay on road surface",
+            "notes": "Cracked pavement"
+        }
+    ],
+    "image_level": {
+        "scene_summary": "Residential street with a white boundary wall and a blue water barrel on the roadside.",
+        "secondary": {
+            "setting": {
+                "value": "urban",
+                "confidence": 0.95
+            }
+        },
+        "scene_scores": [
+            {
+                "row_no": 1,
+                "score_0_1": 0.2,
+                "evidence_mode": "visual",
+                "proxy_rationale": ""
+            },
+            {
+                "row_no": 6,
+                "score_0_1": 0.4,
+                "evidence_mode": "proxy",
+                "proxy_rationale": "Wall creates semi-enclosed microclimate"
+            },
+            {
+                "row_no": 7,
+                "score_0_1": 0.3,
+                "evidence_mode": "proxy",
+                "proxy_rationale": "Single visible storage container"
+            },
+            {
+                "row_no": 12,
+                "score_0_1": 0.3,
+                "evidence_mode": "proxy",
+                "proxy_rationale": "Minor road surface deterioration"
+            }
+        ]
+    },
+    "meta": {
+        "filename": "13.661394_100.456953_2019-06_0_sX9gy0DjkHxtcWID25vJSA.jpg",
+        "lat": 13.661394,
+        "lon": 100.456953,
+        "date": "2019-06",
+        "bearing": 0,
+        "pano_id": "sX9gy0DjkHxtcWID25vJSA"
+    }
+}

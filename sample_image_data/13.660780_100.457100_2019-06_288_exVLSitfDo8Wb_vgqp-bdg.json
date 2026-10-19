@@ -1,0 +1,95 @@
+{
+    "detections": [
+        {
+            "row_no": 1,
+            "category": "Water-holding containers",
+            "type": "Direct",
+            "container_type": "bucket",
+            "confidence": 0.9,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "visual",
+            "proxy_rationale": "",
+            "notes": "Single blue bucket on the roadside."
+        },
+        {
+            "row_no": 5,
+            "category": "Neglected / Low-level Vegetation",
+            "type": "Direct",
+            "container_type": null,
+            "confidence": 0.8,
+            "occluded": false,
+            "concentration": "moderate",
+            "evidence_mode": "visual",
+            "proxy_rationale": "Dense shrubbery along the perimeter wall.",
+            "notes": "Provides potential resting habitat."
+        },
+        {
+            "row_no": 8,
+            "category": "Housing density & structure",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.85,
+            "occluded": false,
+            "concentration": "moderate",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "Attached row houses with minimal setbacks.",
+            "notes": "High density facilitates vector spread."
+        },
+        {
+            "row_no": 12,
+            "category": "Socioeconomic factors",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.7,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "Visible cracks in the concrete road surface.",
+            "notes": "Indicates infrastructure decay."
+        }
+    ],
+    "image_level": {
+        "scene_summary": "Residential street with attached housing, roadside vegetation, and a single water container.",
+        "secondary": {
+            "setting": {
+                "value": "urban",
+                "confidence": 0.95
+            }
+        },
+        "scene_scores": [
+            {
+                "row_no": 1,
+                "score_0_1": 0.1,
+                "evidence_mode": "visual",
+                "proxy_rationale": ""
+            },
+            {
+                "row_no": 5,
+                "score_0_1": 0.4,
+                "evidence_mode": "visual",
+                "proxy_rationale": ""
+            },
+            {
+                "row_no": 8,
+                "score_0_1": 0.6,
+                "evidence_mode": "proxy",
+                "proxy_rationale": "Housing density is moderate."
+            },
+            {
+                "row_no": 12,
+                "score_0_1": 0.2,
+                "evidence_mode": "proxy",
+                "proxy_rationale": "Minor infrastructure decay visible."
+            }
+        ]
+    },
+    "meta": {
+        "filename": "13.660780_100.457100_2019-06_288_exVLSitfDo8Wb_vgqp-bdg.jpg",
+        "lat": 13.66078,
+        "lon": 100.4571,
+        "date": "2019-06",
+        "bearing": 288,
+        "pano_id": "exVLSitfDo8Wb_vgqp-bdg"
+    }
+}

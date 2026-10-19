@@ -1,0 +1,95 @@
+{
+    "detections": [
+        {
+            "row_no": 1,
+            "category": "Water-holding containers",
+            "type": "Direct",
+            "container_type": "cylindrical_bin",
+            "confidence": 0.95,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "visual",
+            "proxy_rationale": "",
+            "notes": "Blue barrel on the sidewalk"
+        },
+        {
+            "row_no": 5,
+            "category": "Neglected / Low-level Vegetation",
+            "type": "Direct",
+            "container_type": null,
+            "confidence": 0.85,
+            "occluded": false,
+            "concentration": "moderate",
+            "evidence_mode": "visual",
+            "proxy_rationale": "Dense potted plants and shrubs along the building facade",
+            "notes": "Cluttered vegetation near the curb"
+        },
+        {
+            "row_no": 8,
+            "category": "Housing density & structure",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.98,
+            "occluded": false,
+            "concentration": "dense",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "Continuous row of attached shophouses with no setbacks",
+            "notes": "Typical dense urban shophouse district"
+        },
+        {
+            "row_no": 11,
+            "category": "Population density & human mobility",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.8,
+            "occluded": false,
+            "concentration": "moderate",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "Parked vehicles and motorcycles indicate active street use",
+            "notes": "Moderate activity from parked transport"
+        }
+    ],
+    "image_level": {
+        "scene_summary": "A paved street lined with attached shophouses, parked cars, and roadside vegetation.",
+        "secondary": {
+            "setting": {
+                "value": "urban",
+                "confidence": 0.95
+            }
+        },
+        "scene_scores": [
+            {
+                "row_no": 1,
+                "score_0_1": 0.2,
+                "evidence_mode": "visual",
+                "proxy_rationale": "Single visible container"
+            },
+            {
+                "row_no": 5,
+                "score_0_1": 0.4,
+                "evidence_mode": "visual",
+                "proxy_rationale": "Moderate density of potted plants"
+            },
+            {
+                "row_no": 8,
+                "score_0_1": 0.9,
+                "evidence_mode": "proxy",
+                "proxy_rationale": "High density of attached structures"
+            },
+            {
+                "row_no": 11,
+                "score_0_1": 0.3,
+                "evidence_mode": "proxy",
+                "proxy_rationale": "Moderate vehicle presence"
+            }
+        ]
+    },
+    "meta": {
+        "filename": "13.660814_100.458000_2019-06_288_fFKi3jMe2t-tCyjImua4oA.jpg",
+        "lat": 13.660814,
+        "lon": 100.458,
+        "date": "2019-06",
+        "bearing": 288,
+        "pano_id": "fFKi3jMe2t-tCyjImua4oA"
+    }
+}

@@ -1,0 +1,77 @@
+{
+    "detections": [
+        {
+            "row_no": 2,
+            "category": "Water exposure",
+            "type": "Direct",
+            "container_type": null,
+            "confidence": 0.95,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "visual",
+            "proxy_rationale": "",
+            "notes": "Stagnant water on asphalt near curb"
+        },
+        {
+            "row_no": 5,
+            "category": "Neglected / Low-level Vegetation",
+            "type": "Direct",
+            "container_type": null,
+            "confidence": 0.85,
+            "occluded": false,
+            "concentration": "moderate",
+            "evidence_mode": "visual",
+            "proxy_rationale": "Dense hedges and tree canopy create shade",
+            "notes": "Managed but dense vegetation"
+        },
+        {
+            "row_no": 9,
+            "category": "Land Use \u2013 High Population Impact",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.9,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "Visible mosque entrance and fountain",
+            "notes": "Religious site with high foot traffic"
+        }
+    ],
+    "image_level": {
+        "scene_summary": "Street view of a mosque entrance with a fountain, lion statue, and wet pavement.",
+        "secondary": {
+            "setting": {
+                "value": "urban",
+                "confidence": 0.95
+            }
+        },
+        "scene_scores": [
+            {
+                "row_no": 2,
+                "score_0_1": 0.4,
+                "evidence_mode": "visual",
+                "proxy_rationale": "Small isolated puddle"
+            },
+            {
+                "row_no": 5,
+                "score_0_1": 0.6,
+                "evidence_mode": "visual",
+                "proxy_rationale": "Dense hedges and trees"
+            },
+            {
+                "row_no": 9,
+                "score_0_1": 0.8,
+                "evidence_mode": "proxy",
+                "proxy_rationale": "Mosque and fountain indicate activity"
+            }
+        ]
+    },
+    "meta": {
+        "filename": "13.660429_100.468530_2019-08_288_c3E_v17_l_peVRZwql_0sg.jpg",
+        "lat": 13.660429,
+        "lon": 100.46853,
+        "date": "2019-08",
+        "bearing": 288,
+        "pano_id": "c3E_v17_l_peVRZwql_0sg"
+    }
+}

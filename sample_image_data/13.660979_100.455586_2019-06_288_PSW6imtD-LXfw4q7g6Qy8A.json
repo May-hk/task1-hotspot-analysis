@@ -1,0 +1,77 @@
+{
+    "detections": [
+        {
+            "row_no": 5,
+            "category": "Neglected / Low-level Vegetation",
+            "type": "Direct",
+            "container_type": null,
+            "confidence": 0.95,
+            "occluded": false,
+            "concentration": "dense",
+            "evidence_mode": "visual",
+            "proxy_rationale": "",
+            "notes": "Dense ground vegetation behind low wall"
+        },
+        {
+            "row_no": 6,
+            "category": "Enclosed Built Environment",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.6,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "Low wall creates semi-enclosed pocket",
+            "notes": "Narrow pocket behind wall"
+        },
+        {
+            "row_no": 12,
+            "category": "Socioeconomic factors",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.7,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "Banner on low wall suggests informal use",
+            "notes": "Banner on low wall"
+        }
+    ],
+    "image_level": {
+        "scene_summary": "Paved road corner with dense vegetation behind a low wall and a banner.",
+        "secondary": {
+            "setting": {
+                "value": "urban",
+                "confidence": 0.8
+            }
+        },
+        "scene_scores": [
+            {
+                "row_no": 5,
+                "score_0_1": 0.8,
+                "evidence_mode": "visual",
+                "proxy_rationale": ""
+            },
+            {
+                "row_no": 6,
+                "score_0_1": 0.3,
+                "evidence_mode": "proxy",
+                "proxy_rationale": "Limited enclosure"
+            },
+            {
+                "row_no": 12,
+                "score_0_1": 0.2,
+                "evidence_mode": "proxy",
+                "proxy_rationale": "Minor infrastructure decay"
+            }
+        ]
+    },
+    "meta": {
+        "filename": "13.660979_100.455586_2019-06_288_PSW6imtD-LXfw4q7g6Qy8A.jpg",
+        "lat": 13.660979,
+        "lon": 100.455586,
+        "date": "2019-06",
+        "bearing": 288,
+        "pano_id": "PSW6imtD-LXfw4q7g6Qy8A"
+    }
+}

@@ -1,0 +1,113 @@
+{
+    "detections": [
+        {
+            "row_no": 1,
+            "category": "Water-holding containers",
+            "type": "Direct",
+            "container_type": "pottedplant",
+            "confidence": 0.95,
+            "occluded": false,
+            "concentration": "moderate",
+            "evidence_mode": "visual",
+            "proxy_rationale": "",
+            "notes": "Cluster of potted plants near the roadside."
+        },
+        {
+            "row_no": 2,
+            "category": "Water exposure",
+            "type": "Direct",
+            "container_type": null,
+            "confidence": 0.85,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "visual",
+            "proxy_rationale": "",
+            "notes": "Visible puddles on the ground near the plants."
+        },
+        {
+            "row_no": 4,
+            "category": "Waste accumulation",
+            "type": "Direct",
+            "container_type": null,
+            "confidence": 0.9,
+            "occluded": false,
+            "concentration": "moderate",
+            "evidence_mode": "visual",
+            "proxy_rationale": "",
+            "notes": "Scattered debris and clutter near the truck."
+        },
+        {
+            "row_no": 5,
+            "category": "Neglected / Low-level Vegetation",
+            "type": "Direct",
+            "container_type": null,
+            "confidence": 0.8,
+            "occluded": false,
+            "concentration": "moderate",
+            "evidence_mode": "visual",
+            "proxy_rationale": "",
+            "notes": "Dense vegetation and weeds in the background."
+        },
+        {
+            "row_no": 12,
+            "category": "Socioeconomic factors",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.75,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "Visible infrastructure decay and clutter.",
+            "notes": "Unfinished structures and temporary materials."
+        }
+    ],
+    "image_level": {
+        "scene_summary": "Roadside scene with clutter, potted plants, and puddles near a building.",
+        "secondary": {
+            "setting": {
+                "value": "urban",
+                "confidence": 0.85
+            }
+        },
+        "scene_scores": [
+            {
+                "row_no": 1,
+                "score_0_1": 0.6,
+                "evidence_mode": "visual",
+                "proxy_rationale": ""
+            },
+            {
+                "row_no": 2,
+                "score_0_1": 0.4,
+                "evidence_mode": "visual",
+                "proxy_rationale": ""
+            },
+            {
+                "row_no": 4,
+                "score_0_1": 0.5,
+                "evidence_mode": "visual",
+                "proxy_rationale": ""
+            },
+            {
+                "row_no": 5,
+                "score_0_1": 0.5,
+                "evidence_mode": "visual",
+                "proxy_rationale": ""
+            },
+            {
+                "row_no": 12,
+                "score_0_1": 0.4,
+                "evidence_mode": "proxy",
+                "proxy_rationale": "Visible infrastructure decay and clutter."
+            }
+        ]
+    },
+    "meta": {
+        "filename": "13.661127_100.452848_2019-08_216_vHtCgOO1H_dk3YtpXc3lCg.jpg",
+        "lat": 13.661127,
+        "lon": 100.452848,
+        "date": "2019-08",
+        "bearing": 216,
+        "pano_id": "vHtCgOO1H_dk3YtpXc3lCg"
+    }
+}

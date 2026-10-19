@@ -1,0 +1,59 @@
+{
+    "detections": [
+        {
+            "row_no": 5,
+            "category": "Neglected / Low-level Vegetation",
+            "type": "Direct",
+            "container_type": null,
+            "confidence": 0.9,
+            "occluded": false,
+            "concentration": "moderate",
+            "evidence_mode": "visual",
+            "proxy_rationale": "",
+            "notes": "Dense vegetation along the roadside and behind the wall."
+        },
+        {
+            "row_no": 12,
+            "category": "Socioeconomic factors",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.8,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "Visible road surface deterioration and cracks.",
+            "notes": "Cracked pavement indicates infrastructure decay."
+        }
+    ],
+    "image_level": {
+        "scene_summary": "Roadside view with dense vegetation and a low wall bordering a vacant lot.",
+        "secondary": {
+            "setting": {
+                "value": "rural",
+                "confidence": 0.85
+            }
+        },
+        "scene_scores": [
+            {
+                "row_no": 5,
+                "score_0_1": 0.7,
+                "evidence_mode": "visual",
+                "proxy_rationale": ""
+            },
+            {
+                "row_no": 12,
+                "score_0_1": 0.4,
+                "evidence_mode": "proxy",
+                "proxy_rationale": "Minor road wear visible."
+            }
+        ]
+    },
+    "meta": {
+        "filename": "13.660979_100.455586_2019-06_72_PSW6imtD-LXfw4q7g6Qy8A.jpg",
+        "lat": 13.660979,
+        "lon": 100.455586,
+        "date": "2019-06",
+        "bearing": 72,
+        "pano_id": "PSW6imtD-LXfw4q7g6Qy8A"
+    }
+}

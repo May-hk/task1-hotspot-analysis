@@ -1,0 +1,59 @@
+{
+    "detections": [
+        {
+            "row_no": 5,
+            "category": "Neglected / Low-level Vegetation",
+            "type": "Direct",
+            "container_type": null,
+            "confidence": 0.95,
+            "occluded": false,
+            "concentration": "dense",
+            "evidence_mode": "visual",
+            "proxy_rationale": "",
+            "notes": "Dense vegetation along the roadside embankment"
+        },
+        {
+            "row_no": 6,
+            "category": "Enclosed Built Environment",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.6,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "Curved road with retaining wall limits airflow",
+            "notes": "Retaining wall creates a semi-enclosed corridor"
+        }
+    ],
+    "image_level": {
+        "scene_summary": "Curved paved road bordered by dense vegetation and a retaining wall with signage.",
+        "secondary": {
+            "setting": {
+                "value": "urban",
+                "confidence": 0.8
+            }
+        },
+        "scene_scores": [
+            {
+                "row_no": 5,
+                "score_0_1": 0.8,
+                "evidence_mode": "visual",
+                "proxy_rationale": ""
+            },
+            {
+                "row_no": 6,
+                "score_0_1": 0.4,
+                "evidence_mode": "proxy",
+                "proxy_rationale": "Moderate enclosure due to wall and vegetation"
+            }
+        ]
+    },
+    "meta": {
+        "filename": "13.660979_100.455586_2019-06_0_PSW6imtD-LXfw4q7g6Qy8A.jpg",
+        "lat": 13.660979,
+        "lon": 100.455586,
+        "date": "2019-06",
+        "bearing": 0,
+        "pano_id": "PSW6imtD-LXfw4q7g6Qy8A"
+    }
+}

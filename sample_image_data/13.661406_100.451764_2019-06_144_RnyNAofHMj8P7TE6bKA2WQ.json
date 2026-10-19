@@ -1,0 +1,59 @@
+{
+    "detections": [
+        {
+            "row_no": 6,
+            "category": "Enclosed Built Environment",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.85,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "Narrow paved area between building and vehicle limits airflow.",
+            "notes": "High wall creates a semi-enclosed microclimate."
+        },
+        {
+            "row_no": 12,
+            "category": "Socioeconomic factors",
+            "type": "Indirect",
+            "container_type": null,
+            "confidence": 0.6,
+            "occluded": false,
+            "concentration": "sparse",
+            "evidence_mode": "proxy",
+            "proxy_rationale": "Building facade shows textured concrete and simple metal roofing.",
+            "notes": "Infrastructure appears functional but utilitarian."
+        }
+    ],
+    "image_level": {
+        "scene_summary": "Paved alleyway alongside a building with a parked truck and traffic cones.",
+        "secondary": {
+            "setting": {
+                "value": "urban",
+                "confidence": 0.95
+            }
+        },
+        "scene_scores": [
+            {
+                "row_no": 6,
+                "score_0_1": 0.4,
+                "evidence_mode": "proxy",
+                "proxy_rationale": "Moderate enclosure due to building wall and vehicle."
+            },
+            {
+                "row_no": 12,
+                "score_0_1": 0.3,
+                "evidence_mode": "proxy",
+                "proxy_rationale": "Basic infrastructure materials visible."
+            }
+        ]
+    },
+    "meta": {
+        "filename": "13.661406_100.451764_2019-06_144_RnyNAofHMj8P7TE6bKA2WQ.jpg",
+        "lat": 13.661406,
+        "lon": 100.451764,
+        "date": "2019-06",
+        "bearing": 144,
+        "pano_id": "RnyNAofHMj8P7TE6bKA2WQ"
+    }
+}
